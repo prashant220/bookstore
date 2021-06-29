@@ -1,0 +1,43 @@
+.user-info{
+    margin-top: 5%;
+    padding: 60px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-around;
+
+}
+.user-section{
+    display: flex;
+    align-items: center;
+}
+.posted-box{
+    padding: 30px 20px;
+    border: 1px solid green;
+    position: relative;
+}
+.post-number{
+    position: absolute;
+   top: 25%;
+   left: 45%;
+   
+}
+
+.book-quote{
+    padding: 100px;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.book-quote p{
+    text-align: center;
+}
+
+.recent{
+    text-align: center;
+    margin-top: 10%;
+}
+.top-avatar img{
+    font-size: 100px;
+}
+.displayname{
+    margin-left: 10px;
+}

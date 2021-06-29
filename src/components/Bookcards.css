@@ -1,0 +1,25 @@
+.slider{
+    margin-top: 10%;
+     max-width: 1150px;
+margin: 0 auto;
+padding: 0 10px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 2rem;
+    } 
+    
+#cards{
+ 
+   position: relative;
+max-width: 300px;
+height: 350px;
+width: 100%;
+overflow: hidden;
+border-radius: 10px;
+cursor: pointer;
+}
+
+#cards p{
+    color: #777777;
+} 
+      

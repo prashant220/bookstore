@@ -1,0 +1,51 @@
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+padding: 0;
+margin-top: -11px;
+width: 291px;
+    
+  }
+  .formdiv{
+    margin-top: 10px;
+  }
+  #myInput {
+  
+  
+    width: 75%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+  }
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+
+  @media only screen and (max-width: 900px) {
+    
+    #myInput {
+      width: 42%;
+      font-size: 16px;
+      padding: 9px 18px 10px 13px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+ 
+  } 
